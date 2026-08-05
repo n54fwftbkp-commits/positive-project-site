@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Positive Aspects of Food Waste
+title: Food Waste Is Not a Bad Thing
 ---
 
-# Positive Aspects of Routinely Discarding Uneaten Food
+# Food Waste Is Not a Bad Thing
 
 **Positive Project — Entry 001**
 
@@ -79,4 +79,4 @@ The better question is not simply, “Was food thrown away?” It is:
 
 > “What human value did the decision protect, what burden did it avoid, and was the choice reasonable in its actual context?”
 
-[Return to all entries](../)
+[Return to all entries]({{ '/' | relative_url }})
