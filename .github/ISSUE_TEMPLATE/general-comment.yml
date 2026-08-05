@@ -1,6 +1,8 @@
 name: General comment
 description: Share a general observation about the project.
 title: "Comment: "
+labels:
+  - general-comment
 body:
   - type: textarea
     id: comment
