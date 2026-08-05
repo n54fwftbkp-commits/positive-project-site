@@ -1,0 +1,21 @@
+name: Complaint or inappropriate-content report
+description: Raise a concern about tone, harm, treatment of a group, or other inappropriate content.
+title: "Complaint: "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or entry
+    validations:
+      required: true
+  - type: textarea
+    id: complaint
+    attributes:
+      label: Complaint
+      description: Explain the concern and the effect you believe the content may have.
+    validations:
+      required: true
+  - type: textarea
+    id: remedy
+    attributes:
+      label: Requested response or remedy
