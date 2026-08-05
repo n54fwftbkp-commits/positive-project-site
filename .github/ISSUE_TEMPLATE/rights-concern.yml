@@ -1,0 +1,29 @@
+name: Privacy, copyright, or takedown concern
+description: Report possible personal-information, copyright, attribution, or removal concerns.
+title: "Rights concern: "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Content location
+      description: Link or identify the relevant page and passage.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of concern
+      options:
+        - Privacy or personal information
+        - Copyright or attribution
+        - Takedown request
+        - Other rights concern
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Do not publish confidential personal information. State only what is necessary.
+    validations:
+      required: true
