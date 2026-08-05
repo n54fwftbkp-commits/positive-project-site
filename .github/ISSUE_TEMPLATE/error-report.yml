@@ -1,0 +1,21 @@
+name: Report an error or factual concern
+description: Identify a possible factual, citation, wording, or reasoning error.
+title: "Error report: "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or entry
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: The concern
+      description: Quote or describe the relevant statement and explain the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence or sources
