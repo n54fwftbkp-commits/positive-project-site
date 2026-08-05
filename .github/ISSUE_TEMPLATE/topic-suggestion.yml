@@ -1,6 +1,8 @@
 name: Suggest a new topic
 description: Propose a subject for a future Positive Project entry.
 title: "Topic suggestion: "
+labels:
+  - topic-suggestion
 body:
   - type: input
     id: topic
