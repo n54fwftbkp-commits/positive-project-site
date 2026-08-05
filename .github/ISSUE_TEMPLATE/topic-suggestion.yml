@@ -1,0 +1,22 @@
+name: Suggest a new topic
+description: Propose a subject for a future Positive Project entry.
+title: "Topic suggestion: "
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Proposed topic
+      placeholder: "Example: Failure is not a bad thing"
+    validations:
+      required: true
+  - type: textarea
+    id: case
+    attributes:
+      label: Positive case
+      description: What constructive, beneficial, or overlooked value should the entry examine?
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Important limits or qualifications
