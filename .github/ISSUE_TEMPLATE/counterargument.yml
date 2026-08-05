@@ -1,0 +1,20 @@
+name: Counterargument or clarification request
+description: Present a respectful disagreement or ask the project to clarify an argument.
+title: "Counterargument: "
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry or claim
+    validations:
+      required: true
+  - type: textarea
+    id: argument
+    attributes:
+      label: Your counterargument or question
+    validations:
+      required: true
+  - type: textarea
+    id: strongest
+    attributes:
+      label: Strongest supporting reasons or sources
