@@ -1,0 +1,20 @@
+name: Suggest an improvement
+description: Recommend clearer wording, structure, navigation, or presentation.
+title: "Improvement: "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or entry
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What could be improved?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed improvement
