@@ -1,6 +1,8 @@
 name: Complaint or inappropriate-content report
 description: Raise a concern about tone, harm, treatment of a group, or other inappropriate content.
 title: "Complaint: "
+labels:
+  - complaint
 body:
   - type: input
     id: page
