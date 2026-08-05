@@ -1,6 +1,8 @@
 name: Accessibility or technical problem
 description: Report a broken link, display problem, navigation issue, or accessibility barrier.
 title: "Technical report: "
+labels:
+  - technical
 body:
   - type: input
     id: page
