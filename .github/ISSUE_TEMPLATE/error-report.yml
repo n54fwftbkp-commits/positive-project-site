@@ -1,6 +1,8 @@
 name: Report an error or factual concern
 description: Identify a possible factual, citation, wording, or reasoning error.
 title: "Error report: "
+labels:
+  - factual-correction
 body:
   - type: input
     id: page
