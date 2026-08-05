@@ -1,0 +1,11 @@
+title: Positive Project
+description: Constructive perspectives on subjects often treated as entirely negative.
+theme: minima
+url: "https://n54fwftbkp-commits.github.io"
+baseurl: "/positive-project-site"
+header_pages:
+  - about.md
+  - methodology.md
+  - faq.md
+  - feedback.md
+  - disclaimer.md
