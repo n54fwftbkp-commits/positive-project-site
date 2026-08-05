@@ -1,0 +1,33 @@
+name: Accessibility or technical problem
+description: Report a broken link, display problem, navigation issue, or accessibility barrier.
+title: "Technical report: "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Affected page
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Accessibility
+        - Broken link
+        - Mobile display
+        - Desktop display
+        - Navigation
+        - Other technical issue
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
