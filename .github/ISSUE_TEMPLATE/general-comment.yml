@@ -1,0 +1,15 @@
+name: General comment
+description: Share a general observation about the project.
+title: "Comment: "
+body:
+  - type: textarea
+    id: comment
+    attributes:
+      label: Your comment
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Related page or entry
+      description: Optional link or title.
