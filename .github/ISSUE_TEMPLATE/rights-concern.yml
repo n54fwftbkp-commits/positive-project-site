@@ -1,6 +1,8 @@
 name: Privacy, copyright, or takedown concern
 description: Report possible personal-information, copyright, attribution, or removal concerns.
 title: "Rights concern: "
+labels:
+  - privacy
 body:
   - type: input
     id: location
