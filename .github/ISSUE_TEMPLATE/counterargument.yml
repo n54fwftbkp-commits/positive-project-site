@@ -1,6 +1,8 @@
 name: Counterargument or clarification request
 description: Present a respectful disagreement or ask the project to clarify an argument.
 title: "Counterargument: "
+labels:
+  - counterargument
 body:
   - type: input
     id: entry
