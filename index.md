@@ -22,6 +22,7 @@ The project does not claim that every consequence of a subject is good. It asks 
 9. [Tradition Is Not a Bad Thing]({{ '/entries/009-tradition-is-not-a-bad-thing.html' | relative_url }})
 10. [Incentives Are Not a Bad Thing]({{ '/entries/010-incentives-are-not-a-bad-thing.html' | relative_url }})
 11. [Fun Is Not a Bad Thing]({{ '/entries/011-fun-is-not-a-bad-thing.html' | relative_url }})
+12. [Luxury Skincare Is Not a Bad Thing]({{ '/entries/012-luxury-skincare-is-not-a-bad-thing.html' | relative_url }})
 
 ## Participate
 
