@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Luxury Skincare Is Not a Bad Thing
+permalink: /entries/012-luxury-skincare-is-not-a-bad-thing.html
 ---
 
 # Luxury Skincare Is Not a Bad Thing
